@@ -1,3 +1,34 @@
+<p align="center">
+  <img src="https://design.jboss.org/quarkus/logo/final/PNG/quarkus_icon_rgb_1024px_default.png" width="50%">
+</p>
+
+
+<h1 align="center"> API - Quarkus </h1>
+
+<p> Para este trabalho, foi criada uma API Rest (com Crud), utilizando o Framework Quarkus e o H2 database como sistema de gerenciamento de banco de dados relacional. 
+Foi criado um banco de dados de Employees (funcionários). </p>
+
+
+## :memo: Funcionalidades criadas: 
+
+1. Listar Employees;
+2. Cadastrar Employees;
+3. Atualizar dados de Employees;
+4. Deletar dados de Employees;
+4. Documentação da API;
+
+---
+
+## :page_with_curl: Documentação
+
+Você pode acessar a documentação da API [aqui.](https://documenter.getpostman.com/view/23106459/VUxRQSR9)
+
+
+---
+
+
+
+
 # api-quarkus Project
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
