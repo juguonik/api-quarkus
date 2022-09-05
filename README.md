@@ -25,9 +25,18 @@ Você pode acessar a documentação da API [aqui.](https://documenter.getpostman
 
 
 ---
+## :page_with_curl: Docker :whale:
+
+Você pode acessar a imagem [aqui.](https://hub.docker.com/repository/docker/julianaguonik/api-quarkus)
+
+Ou utilizar o comando abaixo:
+
+```shell script
+docker pull julianaguonik/api-quarkus:1.0.0-SNAPSHOT
+```
 
 
-
+---
 
 # api-quarkus Project
 
