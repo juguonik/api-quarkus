@@ -25,7 +25,7 @@ Você pode acessar a documentação da API [aqui.](https://documenter.getpostman
 
 
 ---
-## :page_with_curl: Docker :whale:
+## :whale: Docker 
 
 Você pode acessar a imagem [aqui.](https://hub.docker.com/repository/docker/julianaguonik/api-quarkus)
 
@@ -38,7 +38,7 @@ docker pull julianaguonik/api-quarkus:1.0.0-SNAPSHOT
 
 ---
 
-# api-quarkus Project
+<!-- # api-quarkus Project
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
@@ -99,4 +99,4 @@ If you want to learn more about building native executables, please consult http
 
 Easily start your RESTful Web Services
 
-[Related guide section...](https://quarkus.io/guides/getting-started#the-jax-rs-resources)
+[Related guide section...](https://quarkus.io/guides/getting-started#the-jax-rs-resources) -->
