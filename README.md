@@ -5,7 +5,7 @@
 
 <h1 align="center"> API - Quarkus </h1>
 
-<p> Para este trabalho, foi criada uma API Rest (com Crud), utilizando o Framework Quarkus e o H2 database como sistema de gerenciamento de banco de dados relacional. 
+<p> Para este trabalho, foi criada uma API Rest, utilizando o Framework Quarkus e o H2 database como sistema de gerenciamento de banco de dados relacional. 
 Foi criado um banco de dados de Employees (funcionários). </p>
 
 
