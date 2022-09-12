@@ -28,9 +28,11 @@ public class EmployeeController {
 	
 	@GET
 	
-	public List<Employee> list() {
-		return employeeService.list();
+	public Response getAll() {
+		List<Employee> employees = employeeService.getAll();
+	    return Response.ok(employees).status(200).build();
 	}
+	
 	
 	@POST
 	
@@ -42,9 +44,10 @@ public class EmployeeController {
 	}
 	
 	@PUT
-	public Response update(Employee e){
-		employeeService.update(e);
-		return Response.ok(e).status(200).build();
+	@Path("{id}")
+	public Response update(@PathParam("id") Long id, Employee dto){
+		employeeService.update(id, dto);
+		return Response.status(200).build();
 	}
 	
 	@DELETE
