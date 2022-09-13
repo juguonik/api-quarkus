@@ -38,7 +38,7 @@ public class EmployeeController {
 	
 	public Response create(Employee e) {
 		employeeService.create(e);
-		return Response.ok(e).status(201).build();
+		return Response.status(201).build();
 		
 		
 	}

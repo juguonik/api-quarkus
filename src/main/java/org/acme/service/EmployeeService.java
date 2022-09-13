@@ -26,6 +26,8 @@ public class EmployeeService {
 		employee.role = e.getRole();
 		employee.salary = e.getSalary();
 		
+		employee.persist();
+		
 		return employee;
 
 	}

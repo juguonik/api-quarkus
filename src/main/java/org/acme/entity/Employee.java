@@ -67,11 +67,4 @@ public class Employee extends PanacheEntity{
 		public void setSalary(Double salary) {
 			this.salary = salary;
 		}
-	
-		
-		
-
 	}
-
-
-
