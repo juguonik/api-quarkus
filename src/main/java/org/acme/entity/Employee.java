@@ -1,20 +1,31 @@
 package org.acme.entity;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
-
+import javax.persistence.Table;
 
 import io.quarkus.hibernate.orm.panache.PanacheEntity;
 
 @Entity
+@Table(name = "employees")
 
 public class Employee extends PanacheEntity{
 	
 				
-		
+			
+		@Column
 		public String firstName;
+		
+		@Column
 		public String lastName;
+		
+		@Column
 		public String department;
+		
+		@Column
 		public String role;
+		
+		@Column
 		public Double salary;
 		
 		
